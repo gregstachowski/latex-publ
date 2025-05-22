@@ -16,12 +16,16 @@ LaTeX template to create list of papers from [ADS](https://ui.adsabs.harvard.edu
 
 ### For Windows with TexLive 
 Get TexLive from https://www.tug.org/texlive/acquire-netinstall.html, then run:    
-    `build.bat` 
+```
+build.bat 
+```
 
 ### For Linux command line 
 Most Linux distributions use TexLive. Make sure you have pdflatex and biber installed, then run:  
 
-    `./build.sh`
+```
+./build.sh
+```
 
 By default a PDF file `publ.pdf` is created. If `htlatex` is installed, the Linux build script will also create `publ.html`, `publ.css` (HTML with CSS formatting) and `publ.odt` (OpenOffice) files for your convenience.
 
