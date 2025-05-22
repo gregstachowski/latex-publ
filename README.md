@@ -38,6 +38,6 @@ Default is to not add the DOI number, to included it (if available in the `.bib`
 ## Versions
 - 2.1b, GS 2018-12-20. Requires `aas_macros.sty`, `pdflatex`, `biber` and `texlive-lang-polish`.
 - 2.2g, GS 2021-10-28. Requires `aas_macros_full.sty` + all above + `texlive-plain generic`.
-- 2.3a, GS 2025-05-22. Add option to include DOI if avaialable.
+- 2.3a, GS 2025-05-22. Add option to include DOI if available.
 
 
