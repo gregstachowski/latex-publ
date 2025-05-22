@@ -31,10 +31,13 @@ By default a PDF file `publ.pdf` is created. If `htlatex` is installed, the Linu
 
 ### WARNING: biber version 2.14 and possibly some other versions DO NOT WORK with ADS bibtex files! biber version 2.16 works fine. Older biber versions e.g. 2.9 probably work fine.
  
-Default is Polish, for English change `\let\usepolish=1` to `=0`.   
-Default sorting is newest first, for oldest first change `\let\sortdescending=1` to `=0`.
+Default is English, for Polish change `\let\usepolish=0` to `=1`.   
+Default sorting is newest first, for oldest first change `\let\sortdescending=1` to `=0`.  
+Default is to not add the DOI number, to included it (if available in the `.bib` file) change `\let\usedoi=0` to `=1`.  
 
 ## Versions
 - 2.1b, GS 2018-12-20. Requires `aas_macros.sty`, `pdflatex`, `biber` and `texlive-lang-polish`.
 - 2.2g, GS 2021-10-28. Requires `aas_macros_full.sty` + all above + `texlive-plain generic`.
+- 2.3a, GS 2025-05-22. Add option to include DOI if avaialable.
+
 
