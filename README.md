@@ -25,7 +25,7 @@ Most Linux distributions use TexLive. Make sure you have pdflatex and biber inst
 
 By default a PDF file `publ.pdf` is created. If `htlatex` is installed, the Linux build script will also create `publ.html`, `publ.css` (HTML with CSS formatting) and `publ.odt` (OpenOffice) files for your convenience.
 
-## WARNING: biber version 2.14 and possibly some other versions DO NOT WORK with ADS bibtex files! biber version 2.16 works fine. Older biber versions e.g. 2.9 probably work fine.
+### WARNING: biber version 2.14 and possibly some other versions DO NOT WORK with ADS bibtex files! biber version 2.16 works fine. Older biber versions e.g. 2.9 probably work fine.
  
 Default is Polish, for English change `\let\usepolish=1` to `=0`.   
 Default sorting is newest first, for oldest first change `\let\sortdescending=1` to `=0`.
